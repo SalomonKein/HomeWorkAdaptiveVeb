@@ -60,7 +60,7 @@ header {
 .navigation-menu {
   position: relative; }
   .navigation-menu span {
-    margin-top: 7px;
+    margin-top: 18px;
     margin-left: 13px;
     display: block;
     height: 2px;
@@ -69,7 +69,7 @@ header {
     position: absolute; }
   .navigation-menu:before {
     content: ' ';
-    margin-top: 3px;
+    margin-top: 14px;
     margin-left: 13px;
     display: block;
     height: 2px;
@@ -78,7 +78,7 @@ header {
     position: absolute; }
   .navigation-menu:after {
     content: ' ';
-    margin-top: 11px;
+    margin-top: 22px;
     margin-left: 13px;
     display: block;
     height: 2px;
@@ -86,27 +86,70 @@ header {
     background: #ffffff;
     position: absolute; }
   .navigation-menu .navigation-menulist {
-    margin-top: 26px;
-    width: 141px;
+    top: -136px;
+    width: 142px;
     background-color: #ece6e6;
     position: absolute;
     right: 0px;
     list-style: none;
-    z-index: 2;
-    text-align: left; }
+    z-index: -2;
+    text-align: left;
+    font-family: "Lato regular";
+    font-size: 12px; }
     .navigation-menu .navigation-menulist ul {
       margin-left: 0px; }
     .navigation-menu .navigation-menulist li {
       border: #868484 solid 1px;
-      padding-left: 15px;
-      margin-left: 0px; }
+      padding-left: 12px;
+      padding-top: 11px;
+      margin-left: -40px;
+      padding-bottom: 3px;
+      height: 16px;
+      cursor: pointer; }
+      .navigation-menu .navigation-menulist li:hover {
+        background-color: #3d3838;
+        color: #ffffff; }
+
+.navigation-menulist.active {
+  top: 24px;
+  z-index: 2;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s; }
+
+.navigation-menu.active::before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  margin-top: 18px;
+  transition: all 0.3s ease 0s; }
+
+.navigation-menu.active::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  margin-top: 18px;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s; }
+
+.navigation-menuUp.active {
+  display: none;
+  transition: all 0.3s ease 0s; }
 
 .navigation-menu {
   width: 41px;
-  height: 26px;
+  height: 36px;
   background: #202529;
-  text-align: center;
-  padding-top: 10px; }
+  text-align: center; }
 
 .header-content {
   position: absolute;
