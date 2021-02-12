@@ -44,21 +44,18 @@
     }
     
     header {
-        width: 320px;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin-bottom: 1px;
     }
     
     .header-bg {
-        width: 320px;
-        height: 174px;
+        width: 100%;
     }
     
     .block-navigation {
         background: #373c3f;
-        width: 320px;
-        height: 36px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
@@ -66,15 +63,15 @@
     .navigation-title {
         color: #ffffff;
         font-family: "Montserrat medium";
-        font-size: 12px;
-        padding-top: 10px;
+        font-size: 0.75rem;
+        padding-top: 9px;
         padding-left: 18px;
     }
     
     .navigation-menu {
         position: relative;
         span {
-            margin-top: 18px;
+            margin-top: 16px;
             margin-left: 13px;
             display: block;
             height: 2px;
@@ -84,7 +81,7 @@
         }
         &:before {
             content: ' ';
-            margin-top: 14px;
+            margin-top: 12px;
             margin-left: 13px;
             display: block;
             height: 2px;
@@ -94,7 +91,7 @@
         }
         &:after {
             content: ' ';
-            margin-top: 22px;
+            margin-top: 20px;
             margin-left: 13px;
             display: block;
             height: 2px;
@@ -112,7 +109,8 @@
             z-index: -2;
             text-align: left;
             font-family: "Lato regular";
-            font-size: 12px;
+            font-size: 0.8rem;
+            transition: all 0.5s ease 0s;
             ul {
                 margin-left: 0px;
             }
@@ -133,6 +131,7 @@
     }
     
     .navigation-menulist.active {
+        right: 0px;
         top: 24px;
         z-index: 2;
         transition: all 0.5s ease 0s;
@@ -181,16 +180,16 @@
     
     .header-content {
         position: absolute;
-        margin-top: 36px;
-        margin-left: 20px;
+        margin-top: 35px;
+        margin-left: 21px;
         color: #ffffff;
         font-family: "Lato bold";
         p {
             // margin-top: 15px;
-            font-size: 16px;
+            font-size: 0.98rem;
         }
          :nth-child(2n) {
-            margin-top: -12px;
+            margin-top: -10px;
             margin-bottom: 5px;
         }
         a {
@@ -206,7 +205,7 @@
     }
     
     .menu-block1 {
-        margin-top: 3px;
+        margin-top: 4px;
         height: 75px;
         position: relative;
         margin-bottom: 0px;
@@ -228,7 +227,7 @@
             font-family: "Lato bold";
             top: 3px;
             left: 63px;
-            font-size: 20px;
+            font-size: 1.25rem;
         }
          :nth-child(3) {
             position: absolute;
@@ -247,7 +246,6 @@
                 display: block;
                 border-top: #ffffff solid 1px;
                 border-right: #ffffff solid 1px;
-                ;
                 rotate: 45deg;
             }
         }
@@ -277,7 +275,7 @@
             font-family: "Lato bold";
             top: 4px;
             left: 72px;
-            font-size: 20px;
+            font-size: 1.25rem;
         }
          :nth-child(3) {
             position: absolute;
@@ -294,9 +292,8 @@
                 width: 7px;
                 height: 7px;
                 display: block;
-                border-top: #ffffff solid 2px;
-                border-right: #ffffff solid 2px;
-                ;
+                border-top: #ffffff solid 1px;
+                border-right: #ffffff solid 1px;
                 rotate: 45deg;
             }
         }
@@ -326,7 +323,7 @@
             font-family: "Lato bold";
             top: 3px;
             left: 82px;
-            font-size: 20px;
+            font-size: 1.25rem;
         }
          :nth-child(3) {
             position: absolute;
@@ -359,11 +356,11 @@
         font-family: 'Lato regular';
         text-align: center;
         .block1-title {
-            font-size: 20px;
+            font-size: 1.25rem;
             color: #535456;
         }
-        .block1-Litletext {
-            font-size: 10px;
+        .block1-Littletext {
+            font-size: 0.63rem;
             text-align: left;
             margin-left: 9px;
             margin-top: -20px;
@@ -373,7 +370,7 @@
             background-color: #3f4043;
             height: 31px;
             color: #acd8ad;
-            font-size: 20px;
+            font-size: 1.25rem;
             margin-top: -1px;
             padding-top: 6px;
             text-align: left;
@@ -388,28 +385,28 @@
         div {
             display: block;
             text-align: left;
-            margin-top: 0px;
-            margin-bottom: 0px;
+            margin-top: 1px;
+            margin-bottom: -1px;
             height: 50px;
             p {
                 display: inline-block;
                 width: 200px;
-                font-size: 14px;
-                margin-left: 16px;
+                font-size: 0.85rem;
+                margin-left: 15px;
                 margin-bottom: 0px;
                 text-align: justify;
             }
              :nth-child(2) {
                 text-align: right;
                 width: 67px;
-                font-size: 13px;
+                font-size: 0.8rem;
             }
              :nth-child(3) {
                 margin-top: 5px;
-                margin-left: 18px;
+                margin-left: 17px;
                 text-align: justify;
                 width: 285px;
-                font-size: 9px;
+                font-size: 0.54rem;
             }
         }
         div:nth-of-type(1) {
@@ -418,7 +415,7 @@
             justify-content: space-between;
             height: 15px;
             p {
-                font-size: 15px;
+                font-size: 0.93rem;
                 margin-top: -5px;
                 margin-left: 18px;
                 color: #3f4043;
@@ -431,8 +428,8 @@
             }
         }
         div:nth-of-type(5) {
-            margin-top: 1px;
-            margin-bottom: 31px;
+            margin-top: 3px;
+            margin-bottom: 29px;
         }
     }
     
@@ -447,10 +444,6 @@
         font-family: 'Lato regular';
         text-align: center;
         margin-top: 40px;
-        .block2-title {
-            font-size: 20px;
-            color: #535456;
-        }
         .block2-Litletext {
             font-size: 10px;
             text-align: left;
@@ -462,7 +455,7 @@
             background-color: #acd8ad;
             height: 31px;
             color: #ffffff;
-            font-size: 20px;
+            font-size: 1.25rem;
             margin-top: -1px;
             padding-top: 6px;
             text-align: left;
@@ -478,12 +471,12 @@
             display: block;
             text-align: left;
             margin-top: 0px;
-            margin-bottom: 0px;
+            margin-bottom: 1px;
             height: 50px;
             p {
                 display: inline-block;
                 width: 200px;
-                font-size: 14px;
+                font-size: 0.85rem;
                 margin-left: 16px;
                 margin-bottom: 0px;
                 text-align: justify;
@@ -491,14 +484,14 @@
              :nth-child(2) {
                 text-align: right;
                 width: 67px;
-                font-size: 13px;
+                font-size: 0.8rem;
             }
              :nth-child(3) {
                 margin-top: 5px;
                 margin-left: 18px;
                 text-align: justify;
                 width: 285px;
-                font-size: 9px;
+                font-size: 0.54rem;
             }
         }
         div:nth-of-type(1) {
@@ -511,7 +504,7 @@
                 width: 210px;
             }
             p {
-                font-size: 15px;
+                font-size: 0.94rem;
                 margin-top: -5px;
                 margin-left: 18px;
                 color: #3f4043;
@@ -524,7 +517,7 @@
             }
         }
         div:nth-of-type(5) {
-            margin-top: 1px;
+            margin-top: -2px;
             margin-bottom: 31px;
         }
     }
@@ -540,13 +533,14 @@
         background-color: #acd8ad;
         text-align: center;
         color: #ffffff;
-        margin-top: 55px;
+        margin-top: 53px;
         height: 55px;
         display: flex;
         flex-direction: column;
         font-family: 'Montserrat regular';
-        font-size: 12px;
+        font-size: 0.75rem;
         p:nth-of-type(1) {
+            margin-top: 10px;
             margin-bottom: 0px;
             margin-left: 3px;
         }
