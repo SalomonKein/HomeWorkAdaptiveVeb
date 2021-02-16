@@ -29,6 +29,9 @@
   src: local("☺"), url("fonts/Montserrat regular.woff") format("woff"), url("fonts/Montserrat regular.ttf") format("truetype"), url("fonts/Montserrat regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+html {
+  font-size: 5vw; }
+
 body {
   margin: 0 auto;
   width: 100%; }
@@ -44,6 +47,7 @@ header {
 .block-navigation {
   background: #373c3f;
   width: 100%;
+  height: 11.3vw;
   display: flex;
   justify-content: space-between; }
 
@@ -51,40 +55,40 @@ header {
   color: #ffffff;
   font-family: "Montserrat medium";
   font-size: 0.75rem;
-  padding-top: 9px;
-  padding-left: 18px; }
+  padding-top: 2.7vw;
+  padding-left: 5.2vw; }
 
 .navigation-menu {
   position: relative; }
   .navigation-menu span {
-    margin-top: 16px;
-    margin-left: 13px;
+    margin-top: 5vw;
+    margin-left: 4vw;
     display: block;
-    height: 2px;
-    width: 16px;
+    height: 0.5vw;
+    width: 5vw;
     background: #ffffff;
     position: absolute; }
   .navigation-menu:before {
     content: ' ';
-    margin-top: 12px;
-    margin-left: 13px;
+    margin-top: 3.9vw;
+    margin-left: 4vw;
     display: block;
-    height: 2px;
-    width: 16px;
+    height: 0.5vw;
+    width: 5vw;
     background: #ffffff;
     position: absolute; }
   .navigation-menu:after {
     content: ' ';
-    margin-top: 20px;
-    margin-left: 13px;
+    margin-top: 6.3vw;
+    margin-left: 4vw;
     display: block;
-    height: 2px;
-    width: 16px;
+    height: 0.5vw;
+    width: 5vw;
     background: #ffffff;
     position: absolute; }
   .navigation-menu .navigation-menulist {
-    top: -136px;
-    width: 142px;
+    top: -20vw;
+    width: 45vw;
     background-color: #ece6e6;
     position: absolute;
     right: 0px;
@@ -98,11 +102,11 @@ header {
       margin-left: 0px; }
     .navigation-menu .navigation-menulist li {
       border: #868484 solid 1px;
-      padding-left: 12px;
-      padding-top: 11px;
+      padding-left: 5.5vw;
+      padding-top: 3.5vw;
       margin-left: -40px;
       padding-bottom: 3px;
-      height: 16px;
+      height: 5vw;
       cursor: pointer; }
       .navigation-menu .navigation-menulist li:hover {
         background-color: #3d3838;
@@ -124,7 +128,7 @@ header {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
-  margin-top: 18px;
+  margin-top: 5.2vw;
   transition: all 0.3s ease 0s; }
 
 .navigation-menu.active::after {
@@ -133,7 +137,7 @@ header {
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
-  margin-top: 18px;
+  margin-top: 5.2vw;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -145,24 +149,24 @@ header {
   transition: all 0.3s ease 0s; }
 
 .navigation-menu {
-  width: 41px;
-  height: 36px;
+  width: 12.6vw;
+  height: 11.3vw;
   background: #202529;
   text-align: center; }
 
 .header-content {
   position: absolute;
-  margin-top: 35px;
-  margin-left: 21px;
+  margin-top: 11vw;
+  margin-left: 6.5vw;
   color: #ffffff;
   font-family: "Lato bold"; }
   .header-content p {
     font-size: 0.98rem; }
   .header-content :nth-child(2n) {
-    margin-top: -10px;
-    margin-bottom: 5px; }
+    margin-top: -3.4vw;
+    margin-bottom: 2vw; }
   .header-content a {
-    font-size: 14px;
+    font-size: 0.85rem;
     text-decoration: none;
     color: #a9d1da; }
 
@@ -172,11 +176,11 @@ header {
 
 .menu-block1 {
   margin-top: 4px;
-  height: 75px;
+  height: 23.5vw;
   position: relative;
   margin-bottom: 0px; }
   .menu-block1 .block1-bg {
-    height: 75px;
+    height: 23.5vw;
     width: 100%;
     overflow: hidden;
     position: relative; }
@@ -189,13 +193,13 @@ header {
     position: absolute;
     color: #ffffff;
     font-family: "Lato bold";
-    top: 3px;
-    left: 63px;
+    top: 1vw;
+    left: 20vw;
     font-size: 1.25rem; }
   .menu-block1 :nth-child(3) {
     position: absolute;
     width: 22%;
-    height: 75px;
+    height: 23.5vw;
     top: 0px;
     right: 0px;
     background: #acd8ad;
@@ -204,8 +208,8 @@ header {
     align-items: center;
     justify-content: center; }
     .menu-block1 :nth-child(3) span {
-      width: 7px;
-      height: 7px;
+      width: 2.2vw;
+      height: 2.2vw;
       display: block;
       border-top: #ffffff solid 1px;
       border-right: #ffffff solid 1px;
@@ -213,11 +217,11 @@ header {
 
 .menu-block2 {
   margin-top: 2px;
-  height: 75px;
+  height: 23vw;
   position: relative;
   margin-bottom: 0px; }
   .menu-block2 .block2-bg {
-    height: 75px;
+    height: 23vw;
     width: 100%;
     overflow: hidden;
     position: relative; }
@@ -230,13 +234,13 @@ header {
     position: absolute;
     color: #ffffff;
     font-family: "Lato bold";
-    top: 4px;
-    left: 72px;
+    top: 1.2vw;
+    left: 22.5vw;
     font-size: 1.25rem; }
   .menu-block2 :nth-child(3) {
     position: absolute;
     width: 22%;
-    height: 75px;
+    height: 23vw;
     top: 0px;
     right: 0px;
     background: #acd8ad;
@@ -245,8 +249,8 @@ header {
     align-items: center;
     justify-content: center; }
     .menu-block2 :nth-child(3) span {
-      width: 7px;
-      height: 7px;
+      width: 2.2vw;
+      height: 2.2vw;
       display: block;
       border-top: #ffffff solid 1px;
       border-right: #ffffff solid 1px;
@@ -254,11 +258,11 @@ header {
 
 .menu-block3 {
   margin-top: 1px;
-  height: 75px;
+  height: 23.5vw;
   position: relative;
   margin-bottom: 0px; }
   .menu-block3 .block3-bg {
-    height: 75px;
+    height: 23.5vw;
     width: 100%;
     overflow: hidden;
     position: relative; }
@@ -271,13 +275,13 @@ header {
     position: absolute;
     color: #ffffff;
     font-family: "Lato bold";
-    top: 3px;
-    left: 82px;
+    top: 1.2vw;
+    left: 25.5vw;
     font-size: 1.25rem; }
   .menu-block3 :nth-child(3) {
     position: absolute;
     width: 22%;
-    height: 75px;
+    height: 23.5vw;
     top: 0px;
     right: 0px;
     background: #acd8ad;
@@ -286,8 +290,8 @@ header {
     align-items: center;
     justify-content: center; }
     .menu-block3 :nth-child(3) span {
-      width: 7px;
-      height: 7px;
+      width: 2.2vw;
+      height: 2.2vw;
       display: block;
       border-top: #ffffff solid 1px;
       border-right: #ffffff solid 1px;
@@ -311,13 +315,14 @@ header {
     color: #cbccce; }
   .content-block1 .block1-menutitle {
     background-color: #3f4043;
-    height: 31px;
+    height: 10vw;
     color: #acd8ad;
     font-size: 1.25rem;
     margin-top: -1px;
     padding-top: 6px;
     text-align: left;
-    padding-left: 18px; }
+    padding-left: 18px;
+    margin-bottom: 19px; }
 
 .block1-price {
   display: flex;
@@ -326,15 +331,15 @@ header {
   .block1-price div {
     display: block;
     text-align: justify;
-    margin-top: 1px;
-    margin-bottom: -1px;
-    height: 50px; }
+    margin-top: 2px;
+    margin-bottom: -2px;
+    height: 16vw; }
     .block1-price div p {
       display: inline-block;
       width: 72%;
       font-size: 0.85rem;
       margin-left: 15px;
-      margin-bottom: 0px;
+      margin-bottom: -2px;
       text-align: justify; }
     .block1-price div :nth-child(2) {
       margin-right: 23px;
@@ -357,13 +362,13 @@ header {
       margin-left: 18px;
       color: #3f4043; }
     .block1-price div:nth-of-type(1) img {
-      width: 25px;
-      height: 25px;
+      width: 7.6vw;
+      height: 7.6vw;
       margin-right: 17px;
-      margin-top: -9px; }
+      margin-top: -11px; }
   .block1-price div:nth-of-type(5) {
-    margin-top: 3px;
-    margin-bottom: 29px; }
+    margin-top: 1px;
+    margin-bottom: 25px; }
 
 #img2 {
   width: 12px;
