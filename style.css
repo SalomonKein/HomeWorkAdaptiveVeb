@@ -472,4 +472,199 @@ footer {
     margin-top: 2px;
     margin-left: 3px; }
 
+@media (max-width: 640px) {
+  .block-navigation {
+    height: 12.2vw; }
+
+  .navigation-title {
+    padding-top: 4vw;
+    padding-left: 5.4vw; }
+
+  .navigation-menu span {
+    margin-top: 6.1vw;
+    margin-left: 4vw;
+    height: 0.6vw;
+    width: 4.8vw; }
+  .navigation-menu:before {
+    margin-top: 4.8vw;
+    margin-left: 4vw;
+    height: 0.6vw;
+    width: 4.8vw; }
+  .navigation-menu:after {
+    margin-top: 7.3vw;
+    margin-left: 4vw;
+    height: 0.6vw;
+    width: 4.8vw; }
+
+  .navigation-menulist.active {
+    top: 8vw; }
+
+  .navigation-menu.active::before {
+    margin-top: 6.1vw; }
+
+  .navigation-menu.active::after {
+    margin-top: 6.1vw; }
+
+  .navigation-menu {
+    height: 12.2vw; }
+
+  .header-content {
+    margin-top: 10.3vw;
+    margin-left: 6.1vw; }
+    .header-content p {
+      font-size: 1.1rem; }
+    .header-content :nth-child(2n) {
+      margin-top: -5.6vw;
+      margin-bottom: 1vw; }
+    .header-content a {
+      font-size: 0.75rem;
+      margin-left: -0.5vw; }
+
+  .menu-block1 {
+    margin-top: 6px; }
+    .menu-block1 .block1-bg img {
+      width: 80%;
+      top: -290px;
+      left: -10px; }
+    .menu-block1 p {
+      top: 2.3vw;
+      left: 21vw;
+      font-size: 1.1rem; }
+    .menu-block1 :nth-child(3) span {
+      border-top: #ffffff solid 3px;
+      border-right: #ffffff solid 3px; }
+
+  .menu-block2 {
+    height: 23.5vw; }
+    .menu-block2 .block2-bg {
+      height: 23vw; }
+      .menu-block2 .block2-bg img {
+        top: -245px;
+        left: -4px; }
+    .menu-block2 p {
+      top: 2.3vw;
+      left: 21vw;
+      font-size: 1.1rem; }
+    .menu-block2 :nth-child(3) span {
+      border-top: #ffffff solid 3px;
+      border-right: #ffffff solid 3px; }
+
+  .menu-block3 {
+    height: 23vw;
+    margin-bottom: -4px; }
+    .menu-block3 .block3-bg {
+      height: 23vw; }
+      .menu-block3 .block3-bg img {
+        top: -40px; }
+    .menu-block3 p {
+      top: 1.4vw;
+      left: 28vw;
+      font-size: 1.15rem; }
+    .menu-block3 :nth-child(3) span {
+      border-top: #ffffff solid 3px;
+      border-right: #ffffff solid 3px; }
+
+  .content-block1 .block1-Littletext {
+    margin-left: 19px;
+    margin-top: -40px; }
+  .content-block1 .block1-menutitle {
+    height: 9.7vw;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-left: 36px;
+    margin-bottom: 35px; }
+
+  .block1-price div p {
+    width: 60%;
+    margin-left: 33px;
+    margin-bottom: 6px; }
+  .block1-price div :nth-child(2) {
+    margin-right: 50px;
+    width: 10%;
+    font-size: 0.8rem; }
+  .block1-price div :nth-child(3) {
+    margin-top: 3px;
+    width: 89%; }
+  .block1-price div:nth-of-type(1) {
+    margin-bottom: 20px; }
+    .block1-price div:nth-of-type(1) p {
+      margin-left: 35px; }
+    .block1-price div:nth-of-type(1) img {
+      margin-right: 37px;
+      margin-top: -15px; }
+  .block1-price div:nth-of-type(4) {
+    margin-top: -4px; }
+  .block1-price div:nth-of-type(5) {
+    margin-top: -1px;
+    margin-bottom: 50px; }
+
+  #img2 {
+    width: 4.3vw;
+    height: 7.7vw;
+    margin-top: -12px;
+    margin-right: 47px; }
+
+  .block1-price2 {
+    margin-bottom: 51px; }
+
+  .content-block2 .block2-menutitle {
+    padding-top: 11px;
+    padding-left: 35px; }
+
+  .block2-price div {
+    margin-top: 35px; }
+    .block2-price div p {
+      width: 65%;
+      margin-left: 35px;
+      margin-bottom: 6px; }
+    .block2-price div :nth-child(2) {
+      margin-right: 40px;
+      text-align: right;
+      width: 15%;
+      font-size: 0.8rem; }
+    .block2-price div :nth-child(3) {
+      margin-top: 5px;
+      margin-left: 35px;
+      text-align: justify;
+      width: 89%;
+      font-size: 0.54rem; }
+  .block2-price div:nth-of-type(1) {
+    margin-top: -8px;
+    margin-bottom: -10px; }
+    .block2-price div:nth-of-type(1) p:nth-of-type(1) {
+      text-align: left; }
+    .block2-price div:nth-of-type(1) p {
+      margin-left: 35px; }
+    .block2-price div:nth-of-type(1) img {
+      width: 9.4vw;
+      height: 6.7vw;
+      margin-right: 33px;
+      margin-top: -9px; }
+  .block2-price div:nth-of-type(3) {
+    margin-top: -3px;
+    margin-bottom: -2px; }
+  .block2-price div:nth-of-type(4) {
+    margin-top: 0px;
+    margin-bottom: -2px; }
+  .block2-price div:nth-of-type(5) {
+    margin-top: -2px;
+    margin-bottom: 60px; }
+
+  #img3 {
+    width: 7vw;
+    height: 6.4vw;
+    margin-right: 44px;
+    margin-top: -9px; }
+
+  footer {
+    margin-top: 127px;
+    height: 15vw;
+    font-size: 0.55rem; }
+    footer p:nth-of-type(1) {
+      margin-top: 25px;
+      margin-left: 3px; }
+    footer p:nth-of-type(2) {
+      margin-top: 7px;
+      margin-left: 3px; } }
+
 /*# sourceMappingURL=style.css.map */
