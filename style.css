@@ -560,9 +560,11 @@ footer {
       top: 1.4vw;
       left: 28vw;
       font-size: 1.15rem; }
-    .menu-block3 :nth-child(3) span {
-      border-top: #ffffff solid 3px;
-      border-right: #ffffff solid 3px; }
+    .menu-block3 :nth-child(3) {
+      height: 23vw; }
+      .menu-block3 :nth-child(3) span {
+        border-top: #ffffff solid 3px;
+        border-right: #ffffff solid 3px; }
 
   .content-block1 .block1-Littletext {
     margin-left: 19px;
